@@ -1,7 +1,9 @@
 import requests
 import json
+import allure
 
 
+@allure.id("34")
 def test_some_request():
     headers = {
         'Content-Type': 'application/json'
